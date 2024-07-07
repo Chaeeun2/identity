@@ -1,0 +1,40 @@
+html {
+    background: white;
+}
+
+.wrap {
+    width: 97vw;
+    height: 98vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.imgwrap {
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 200px;
+    transition: all 0.5s;
+}
+
+img:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 800px) {
+    .imgwrap {
+        width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    img {
+        width: 100px;
+    }
+
+}
